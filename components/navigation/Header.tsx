@@ -1,8 +1,10 @@
-
+'use client'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className="absolute z-30 w-full">
+
+    </div>
   )
 }
 
