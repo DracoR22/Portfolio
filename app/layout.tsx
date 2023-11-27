@@ -24,8 +24,8 @@ export default function RootLayout({
       <body className={`${sora.className} page text-white bg-cover bg-no-repeat font-sora relative`}>
         <AnimatePresence mode='wait'>
           <motion.div >
-            <Transition/>
-            <Nav/>
+            {/* <Transition/> */}
+             <Nav/>
              <Header/>
               {children}
           </motion.div>

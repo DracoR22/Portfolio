@@ -17,7 +17,7 @@ export const stack = [
     },
     {
         name: "Nextjs",
-        logo: "/stack/next-js.svg"
+        logo: "/stack/next.png"
     },
     {
         name: "React",

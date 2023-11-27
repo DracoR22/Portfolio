@@ -20,7 +20,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-900 overflow-hidden leading-relaxed;
+    @apply bg-gray-950 overflow-hidden leading-relaxed;
   }
   .page {
     @apply w-full h-screen overflow-hidden;
