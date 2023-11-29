@@ -12,6 +12,7 @@ import { SiMysql, SiPrisma, SiTailwindcss, SiExpress, SiNestjs } from "react-ico
 import { TbBrandNextjs } from "react-icons/tb";
 
 import CountUp from "react-countup";
+import Heading from "@/utils/Heading";
 
 const aboutData: any = [
   {
@@ -48,16 +49,12 @@ const aboutData: any = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Frontend Development',
+        stage: '2020 - 2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Backend Development',
+        stage: '2020 - 2023',
       },
     ],
   },
@@ -86,6 +83,10 @@ const AboutPage = () => {
   const [index, setIndex] = useState(0)
 
   return (
+    <>
+    <Heading title={`About`} description="This is my portfolio"
+    keywords="nextjs"/>
+
     <div className="h-full bg-gray-950/30 py-32 text-center xl:text-left">
       {/* AVATAR IMAGE */}
       <motion.div variants={fadeIn("right", 0.2)} initial="hidden" animate="show" exit="hidden"
@@ -180,6 +181,7 @@ const AboutPage = () => {
          </motion.div>
       </div>
     </div>
+    </>
   )
 }
 

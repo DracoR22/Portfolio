@@ -7,9 +7,14 @@ import Image from "next/image"
 import ProjectsBtn from "@/components/buttons/ProjectsBtn"
 import Avatar from "@/components/Avatar"
 import ParticlesContainer from "@/components/transition/ParticlesContainer"
+import Heading from "@/utils/Heading"
 
 const Home = () => {
   return (
+    <>
+    <Heading title={`Home`} description="This is my portfolio"
+    keywords="nextjs"/>
+
     <div className="h-full ">
       {/* PARTICLES */}
       <ParticlesContainer/>
@@ -63,6 +68,7 @@ const Home = () => {
          </motion.div>
        </div>
     </div>
+    </>
   )
 }
 
