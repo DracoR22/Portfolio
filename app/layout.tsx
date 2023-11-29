@@ -22,14 +22,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${sora.className} page text-white bg-cover bg-no-repeat font-sora relative`}>
-        <AnimatePresence mode='wait'>
+       
           <motion.div >
             {/* <Transition/> */}
              <Nav/>
              <Header/>
               {children}
           </motion.div>
-        </AnimatePresence>
+      
       </body>
     </html>
   )
