@@ -24,7 +24,7 @@ const ProjectsPage = () => {
                 className="mb-4 max-w-[400px] mx-auto lg:mx-0">
                   My projects aren&apos;t just showcases; they&apos;re a dynamic orchestra of technologies,
                   with a seamless integration of databases and APIs.
-                   The tech stack is more than a tool; it's a means to elevate the digital landscape
+                   The tech stack is more than a tool; it&apos;s a means to elevate the digital landscape
                 </motion.p>
             </div>
             {/* SLIDER */}
