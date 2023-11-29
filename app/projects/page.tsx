@@ -22,7 +22,7 @@ const ProjectsPage = () => {
                 </motion.h2>
                 <motion.p variants={fadeIn("up", 0.4)} initial="hidden" animate="show" exit="hidden"
                 className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-                  My projects aren't just showcases; they're a dynamic orchestra of technologies,
+                  My projects aren&apos;t just showcases; they&apos;re a dynamic orchestra of technologies,
                   with a seamless integration of databases and APIs.
                    The tech stack is more than a tool; it's a means to elevate the digital landscape
                 </motion.p>

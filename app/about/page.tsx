@@ -21,28 +21,25 @@ const aboutData: any = [
       {
         title: 'Frontend',
         icons: [
-          <FaHtml5/>,
-          <FaCss3/>,
-          <FaJs/>,
-          <FaReact/>,
-          <TbBrandNextjs/>,
-          <SiTailwindcss/>
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <TbBrandNextjs key="nextjs" />,
+          <SiTailwindcss key="tailwindcss" />,
         ],
       },
-
       {
         title: 'Backend',
         icons: [
-        <BiLogoPostgresql/>,
-        <SiMysql/>,
-        <FaDocker/>,
-        <SiPrisma/>,
-        <SiExpress/>,
-        // <SiNestjs/>,
-        <FaGolang/>
+          <BiLogoPostgresql key="postgresql" />,
+          <SiMysql key="mysql" />,
+          <FaDocker key="docker" />,
+          <SiPrisma key="prisma" />,
+          <SiExpress key="express" />,
+          <FaGolang key="golang" />,
         ],
       },
-
     ],
   },
   {
