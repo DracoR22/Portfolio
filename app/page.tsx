@@ -20,19 +20,20 @@ const Home = () => {
       <ParticlesContainer/>
        {/* TEXT */}
      <div className="w-full h-full  ">
-       <div className="text-center flex flex-col justify-center pt-40 h-full container mx-auto xl:text-left">
+       <div className="text-center flex flex-col justify-center pt-36 h-full container mx-auto xl:text-left">
          {/* TITLE */}
          <motion.h1 variants={fadeIn('down', 0.2)} initial="hidden" animate="show" exit="hidden" className="h1 z-[99999]">
            Crafting Excellence <br /> in{' '}
            <span>Every Byte</span>
          </motion.h1>
          {/* SUBTITLE */}
-         <motion.div variants={fadeIn('down', 0.3)} initial="hidden" animate="show" exit="hidden" className=" max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-8 xl:mb-14 z-[99999]">
+         <motion.div variants={fadeIn('down', 0.3)} initial="hidden" animate="show" exit="hidden"
+          className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-8 xl:mb-14 z-[99999] text-sm xxl:text-base">
              Full stack developer, comfortable for
               web, mobile, and API development.
          </motion.div>
          {/* STACK */}
-         <div className="hidden sm:flex sm:justify-center xl:justify-start">
+         <div className="hidden xl:flex xl:justify-start">
            {stack.map((item, i) => (
             <motion.div variants={fadeIn('down', 0.3)} initial="hidden" animate="show" exit="hidden" className="flex items-center mx-3" key={i}>
               <div className="z-[999999]">
