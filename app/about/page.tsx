@@ -47,11 +47,11 @@ const aboutData: any = [
     info: [
       {
         title: 'Frontend Development',
-        stage: '2020 - 2023',
+        stage: '2021 - 2023',
       },
       {
         title: 'Backend Development',
-        stage: '2020 - 2023',
+        stage: '2021 - 2023',
       },
     ],
   },
@@ -109,7 +109,7 @@ const AboutPage = () => {
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 
               after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={3} duration={5}/> +
+                  <CountUp start={0} end={2} duration={5}/> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience
