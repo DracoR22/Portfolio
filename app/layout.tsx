@@ -4,10 +4,11 @@ import { Sora } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/navigation/Nav'
 import Header from '@/components/navigation/Header'
-import { usePathname, useRouter } from 'next/navigation'
-import { AnimatePresence, motion } from 'framer-motion'
-import Transition from '@/components/transition/Transition'
-import { useOrigin } from '@/hooks/useOrigin'
+import { usePathname } from 'next/navigation'
+import { motion } from 'framer-motion'
+
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const sora = Sora({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function RootLayout({
             {/* <Transition/> */}
              <Nav/>
              <Header/>
+             <ToastContainer autoClose={3000} position='top-center' theme='colored'/>
               {children}
           </motion.div>
       
